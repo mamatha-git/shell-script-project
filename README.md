@@ -1,4 +1,6 @@
-shell script taht list the resources in the AWS
+Shell script taht list the resources in the AWS
+
+
 
 
 Developed a shell script to automate the discovery and listing of AWS resources (S3 buckets, EC2 instances, Lambda functions, and IAM users) across the account.
