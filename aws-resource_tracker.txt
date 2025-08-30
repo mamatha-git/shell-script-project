@@ -1,0 +1,182 @@
+all the s3 buckets
+2025-08-23 07:00:13 mybuckest-first
+all the instances
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-04093322052105668",
+            "OwnerId": "296062582540",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2025-08-30T04:38:03+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a2bbbb0f67d1766f"
+                            }
+                        }
+                    ],
+                    "ClientToken": "b06dcf5c-c455-4e3e-8a7f-98a1151691e5",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-54-198-58-195.compute-1.amazonaws.com",
+                                "PublicIp": "54.198.58.195"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2025-08-30T04:38:02+00:00",
+                                "AttachmentId": "eni-attach-0fe1bf8e89daf8242",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-076d55985a9660c9c",
+                                    "GroupName": "launch-wizard-72"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:ff:dc:02:57:29",
+                            "NetworkInterfaceId": "eni-0729b81e0bb1d8fbb",
+                            "OwnerId": "296062582540",
+                            "PrivateDnsName": "ip-172-31-21-143.ec2.internal",
+                            "PrivateIpAddress": "172.31.21.143",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-54-198-58-195.compute-1.amazonaws.com",
+                                        "PublicIp": "54.198.58.195"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-21-143.ec2.internal",
+                                    "PrivateIpAddress": "172.31.21.143"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-01d10ab61556332e1",
+                            "VpcId": "vpc-0bce4d06bcacf9510",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-076d55985a9660c9c",
+                            "GroupName": "launch-wizard-72"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "shell_project"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-08-30T04:38:02+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0989e05430b3bfc51",
+                    "ImageId": "ami-0360c520857e3138f",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-172-31-21-143.ec2.internal",
+                    "PublicDnsName": "ec2-54-198-58-195.compute-1.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "KeyName": "project_key",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-08-30T04:38:02+00:00",
+                    "Placement": {
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-1c"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-01d10ab61556332e1",
+                    "VpcId": "vpc-0bce4d06bcacf9510",
+                    "PrivateIpAddress": "172.31.21.143",
+                    "PublicIpAddress": "54.198.58.195"
+                }
+            ]
+        }
+    ]
+}
+all tha lambda functions
+{
+    "Functions": []
+}
+all the IAM users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "mamatha",
+            "UserId": "AIDAUJ3VUP4GDTZNWRS3V",
+            "Arn": "arn:aws:iam::296062582540:user/mamatha",
+            "CreateDate": "2025-03-16T15:06:00+00:00",
+            "PasswordLastUsed": "2025-08-30T04:36:48+00:00"
+        }
+    ]
+}
