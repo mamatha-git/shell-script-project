@@ -1,0 +1,38 @@
+#!/bin/bash
+
+
+
+
+
+########################
+#   Author=Mamatha B S
+#   Date=30-08-2025
+
+
+
+
+#######################
+#Shell script that list the resources in the AWS Account
+
+
+
+
+
+set -x
+
+
+echo "print all the s3 buckets"
+aws s3 ls
+
+
+echo "print all the ec2 instances"
+aws ec2 describe-instances
+
+
+echo "print all the lambda function"
+aws lambda list-functions
+
+
+echo "print all the IAM user"
+aws iam list-users
+
