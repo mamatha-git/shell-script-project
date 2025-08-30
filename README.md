@@ -1,4 +1,4 @@
-Shell script taht list the resources in the AWS
+Shell script that list the resources in the AWS
 
 
 
