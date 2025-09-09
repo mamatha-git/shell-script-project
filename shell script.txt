@@ -1,22 +1,12 @@
 #!/bin/bash
 
 
-
-
-
 ########################
 #   Author=Mamatha B S
 #   Date=30-08-2025
-
-
-
-
 #######################
+
 #Shell script that list the resources in the AWS Account
-
-
-
-
 
 set -x
 
@@ -35,4 +25,5 @@ aws lambda list-functions
 
 echo "print all the IAM user"
 aws iam list-users
+
 
