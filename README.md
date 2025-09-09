@@ -1,2 +1,2 @@
 # python_practice
-to learn the python language
+to learn python language 
